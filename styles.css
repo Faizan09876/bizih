@@ -14,14 +14,14 @@ body{
 }
 
 .navbar-light .navbar-nav .nav-link{
-  color: white;
+  color:#333333;
   font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
-  color: #333333;
+  color: #ff1e57;
   font-weight: bold;
-  border-bottom: 3px solid #ff1e57;
+  border-bottom: 3px solid #333333;
   padding-bottom: 0.5rem;
  transition: all linear .2s;
 }
