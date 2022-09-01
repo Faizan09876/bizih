@@ -1,0 +1,155 @@
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* NAVBAR */
+.bg-nav{
+  background-color: #3870c2;
+}
+
+.logo-img{
+  width: 200px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #333333;
+  font-weight: bold;
+  border-bottom: 3px solid #ff1e57;
+  padding-bottom: 0.5rem;
+ transition: all linear .2s;
+}
+
+.text-header{
+  color: black;
+}
+
+.header{
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.3)),url('images/Screen Shot 2022-08-09 at 9.39.04 pm.png');
+  min-height: 500px;
+  background-size: cover;
+
+}
+
+.btn-header{
+  font-size: 1.1rem;
+  background-color: #ff1e57;
+  border: #333333;
+}
+
+.btn-header:hover{
+  background-color: #3870c2;
+}
+
+.header-img{
+  border-radius: 113px 21px 97px 8px;
+-webkit-border-radius: 113px 21px 97px 8px;
+-moz-border-radius: 113px 21px 97px 8px;
+border: 5px solid #ff1e57;
+}
+
+.bg-blue{
+  background-color: #3870c2;
+}
+
+.sec2-text{
+  border: 3px solid #ff1e57;
+  border-radius: 10px;
+}
+
+.img-border{
+  border: 3px solid  #333333;
+  border-radius: 15px;
+}
+
+/* Section 3 */
+
+
+.sec3-img1{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.sec3-img2{
+  position: absolute ;
+  width: 70%;
+  top: 40px;
+  left: 80px;
+
+}
+
+@media screen and (max-width: 573px) {
+
+  .sec3-img1{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  .sec3-img2{
+    position: static ;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+
+  }
+}
+
+
+.sec3-ul{
+  color: white;
+  list-style: circle;
+  background-color: #333333;
+  list-style-type: square;
+  border: 5px solid #ff1e57;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+
+/* Section service */
+
+.service-text{
+  font-size: 1.2rem;
+}
+
+.service-icon{
+  padding-right: 1rem;
+}
+
+.service-icon2{
+  padding-right: 1.7rem;
+}
+
+.service-img{
+  border: 5px solid #ff1e57;
+  border-radius: 10px;
+}
+
+.bg-grey{
+  background-color: #333333;
+}
+
+/* Section 5 */
+
+.sec5-text1{
+  color: #ff1e57;
+  font-weight: 600;
+}
+
+/* Footer */
+.footer-link{
+  color: white;
+}
+
+.footer-link:hover{
+  color: #ff1e57;
+}
