@@ -153,3 +153,15 @@ border: 5px solid #ff1e57;
 .footer-link:hover{
   color: #ff1e57;
 }
+
+/* Section New */
+
+.sec-newbox{
+  border: 5px solid #333333;
+}
+
+.sec-newtitle{
+  border: 5px solid #ff1e57;
+  border-radius: 10px;
+  display: inline-block;
+}
